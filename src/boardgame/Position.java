@@ -43,6 +43,8 @@ public class Position {
 		this.collumn = collumn;
 	}
 	
+	@Override
+	
 	public String toString() {
 		
 		return row + ", " + collumn;
