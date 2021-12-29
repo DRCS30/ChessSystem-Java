@@ -45,4 +45,13 @@ public class Board {
 		Collumns = collumns;
 	}
 
+		public Piece piece(Integer row,Integer collumn) {
+			
+			return pieces[row][collumn];
+		}
+		
+		public Piece pice(Position position) {
+			
+			return pieces[position.getRow()][position.getCollumn()];
+		}
 }
