@@ -10,7 +10,7 @@ public class Board {
 	private Integer Collumns;
 	private Piece[][] pieces;
 	
-	
+	//são linhas e colunas totais do tabuleiro + as peças que a compoe.
 	
 	
 	public Board() {
@@ -22,7 +22,7 @@ public class Board {
 		
 		this.rows = rows;
 		this.Collumns = collumns;
-		pieces=new Piece[rows][collumns]; //posição inicial da peça
+		pieces=new Piece[rows][collumns]; //posição inicial de cada peça da matriz peça
 	}
 
 
@@ -50,7 +50,7 @@ public class Board {
 			return pieces[row][collumn];
 		}
 		
-		public Piece pice(Position position) {
+		public Piece piece(Position position) {
 			
 			return pieces[position.getRow()][position.getCollumn()];
 		}

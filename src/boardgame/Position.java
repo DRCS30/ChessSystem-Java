@@ -1,7 +1,9 @@
 package boardgame;
 
+//camada do tabuleiro
 public class Position {
 	
+	//linhas e colunas da posição incial da peça especifica
 	private int row;
 	private int collumn;
 	
